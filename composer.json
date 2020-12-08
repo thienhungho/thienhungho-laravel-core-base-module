@@ -1,0 +1,44 @@
+{
+    "name": "thienhungho/thienhungho-laravel-core-base-module",
+    "description": "Core Base Module for All thienhungho's Project",
+    "type": "library",
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "thienhungho",
+            "email": "thienhungho@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Thienhungho\\Modules\\CoreBase\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "fideloper/proxy": "^4.4",
+        "fruitcake/laravel-cors": "^2.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "laravel/framework": "^8.12",
+        "laravel/passport": "^10.0",
+        "laravel/socialite": "^5.1",
+        "laravel/tinker": "^2.5",
+        "spatie/laravel-query-builder": "^3.3"
+    },
+    "require-dev": {
+        "facade/ignition": "^2.5",
+        "fakerphp/faker": "^1.9.1",
+        "mockery/mockery": "^1.4.2",
+        "nunomaduro/collision": "^5.0",
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thienhungho\\Modules\\CoreBase\\CoreBaseProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
