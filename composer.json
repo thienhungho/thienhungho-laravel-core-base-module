@@ -30,12 +30,16 @@
         "fakerphp/faker": "^1.9.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
-        "phpunit/phpunit": "^9.3.3"
+        "phpunit/phpunit": "^9.3.3",
+        "barryvdh/laravel-ide-helper": "^2.8"
     },
     "extra": {
         "laravel": {
             "providers": [
                 "Thienhungho\\Modules\\CoreBase\\CoreBaseProvider"
+            ],
+            "dont-discover": [
+                "barryvdh/laravel-ide-helper"
             ]
         }
     },
