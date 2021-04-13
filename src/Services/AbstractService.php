@@ -59,10 +59,10 @@ class AbstractService
     }
 
     /**
-     * @param int $id
+     * @param $id
      * @return mixed
      */
-    public function findOneById(int $id)
+    public function findOneById($id)
     {
         return app($this->modelClass)::findOrFail($id);
     }
