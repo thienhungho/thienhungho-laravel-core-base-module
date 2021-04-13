@@ -4,4 +4,4 @@ Laravel Core Base Module by thienhungho. Created for all project Laravel write b
 
 ## License
 
-Laravel Passport is open-sourced software licensed under the [BSD-3 license](LICENSE.md).
+Laravel Core Base Module is open-sourced software licensed under the [BSD-3 license](LICENSE.md).
